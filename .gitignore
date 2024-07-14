@@ -1,0 +1,63 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django specific
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+*.dat
+*.sqlite
+*.pyc
+*.so
+*.env
+.env
+*.zip
+
+# Environment variables
+.env
+.vscode/
+
+# Django stuff:
+*.local
+*.swp
+
+# Database
+db.sqlite3
+*.db
+
+# Static files
+/static/
+!.gitkeep
+
+# Media files
+/media/
+
+# Django migrations
+**/migrations/*.pyc
+**/migrations/__pycache__/
+
+# Ignore virtual environments
+venv/
+ENV/
+env/
+.venv/
+.ENV/
+.env/
+
+# VS Code directory
+.vscode/
+
+# IDE files
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS-specific files
+.DS_Store
+Thumbs.db
